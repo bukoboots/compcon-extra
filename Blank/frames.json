@@ -1,34 +1,43 @@
 [
   {
-    "id": "",
-    "source": "",
-    "name": "",
+     "id": "hannibal_bukoboots_gray",
+    "source": "HA",
+    "name": "HANNIBAL",
     "mechtype": "",
-    "description": "",
-    "mounts" : [],
+    "description": "The Hannibal is a durable and dangerous platform for support, where danger close means covering fire. A defense-oriented version of the Genghis that was forgotten by time as they laid the groundwork for the Saladin. The HANNIBAL is the intermediary between the Genghis, first of the true Harrison frames, and its derivates. <br> Long-forgotten war stories speak of a bulky Genghis that roamed Hercynea, burning away any threat to squads. Likely the origin of the spark for the Saladin and the legend of the Fearkiller of the Interest War.",
+    "mounts" : [Flex, Heavy],
     "stats": {
-      "size": 0,
-      "armor": 0,
-      "hp": 0,
-      "evasion": 0,
-      "edef": 0,
-      "heatcap": 0,
-      "repcap": 0,
-      "sensor_range": 0,
-      "tech_attack": 0,
-      "save": 0,
-      "speed": 0,
-      "sp": 0
+      "size": 1,
+      "armor": 3,
+      "hp": 9,
+      "evasion": 6,
+      "edef": 8,
+      "heatcap": 8,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": 0-2,
+      "save": 10,
+      "speed": 3,
+      "sp": 8
     },
     "traits": [
       {
-        "name": "",
-        "description": ""
+        "name": "Insulated",
+        "description": "The Hannibal has Immunity to burn."
+      }
+
+      {
+        "name": "Emergency Vent",
+        "description": "When the Hannibal takes structure damage, it clears all heat."
+      }
+      {
+        "name": "Plasma Shield",
+        "description": "Once per round, the Hannibal can give +1 difficulty to any attack against it or an allied character within Sensors as a reaction before the roll is made."
       }
     ],
     "core_system": {
-      "name": "",
-      "description": "",
+      "name": "TBK SUSTAIN SUITE",
+      "description": "To better manage the Hannibal’s tremendous power demands and rapidly accelerate heat dispersion, the Think Tank developed a suite of power-management mechanisms. After extensive field testing, pilots discovered that the TBK Sustain Suite can be used as both a heat sink and an area-denial weapon.",
       "integrated": {
         "name": "",
         "mount": "",
@@ -37,10 +46,10 @@
         "damage": [],
         "effect": ""
       },
-      "passive": "",
+      "passive": "The next time you exceed your Heat Cap this scene, you instead clear all heat and vent a burst 3 cloud of burning matter from your mech. <br> Until the start of your next turn, all characters within the affected area count as Invisible to everyone except you, and characters other than you take 2 burn and 2 heat when they start their turn in the area or enter it for the first time in a round. Once this effect ends, characters within the affected area receive soft cover (which you ignore) until the start of your following turn, at which point the cloud disperses.",
       "active_name": "",
       "effect": "",
-      "tags": []
+      "tags": [{"id": "quick action"}]
     },
     "data_type": "frame",
     "aptitude": {}
